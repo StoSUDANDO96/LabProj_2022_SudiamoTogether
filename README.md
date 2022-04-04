@@ -58,11 +58,19 @@ Since we are still learning how to work on Github, here is a very basic guide to
 
       git pull
 
+* When you create a new file, you can add it to tell to Git that it must be tracked:
+
+      git add <filename>
+
+  You can add all untracked files with:
+  
+      git add .
+
+  This will ignore all files with names, paths or extensions contained inside `.gitignore`. If the programs you are using create temporary and junk files, you can add them to `.gitignore`, so that they will not be tracked nor committed.
+
 * After your edits, you can commit the changes into your local repository with:
 
       git commit -a -m "A description of what you did to the unlucky code"
-
-  This will ignore all files with names, paths or extensions contained inside `.gitignore`. If the programs you are using create temporary and junk files, you can add them to `.gitignore`, so that they will not be tracked nor committed.
 
 * You can then update the files on the remote repository:
 
