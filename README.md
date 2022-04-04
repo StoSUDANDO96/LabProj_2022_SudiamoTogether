@@ -24,9 +24,9 @@ Since we are still learning how to work on Github, here is a very basic guide to
 * Find a local directory on your computer where you can work. It can be a directory which contains your Master's degree projects, or you can create a new one.
 * Open a terminal and move into the directory you chose with:
   ```
-      cd path/to/projects
+      cd /full/path/to/my/folder
   ```
-  If you don't want to rewrite the whole path each time, you can create an environment variable on Linux:
+  If you don't want to write the whole path each time, you can create an environment variable on Linux:
   ```shell
       echo -e "\n export WORKSPACE=/full/path/to/my/folder \n" >> ~/.bashrc
   ```
@@ -40,7 +40,7 @@ Since we are still learning how to work on Github, here is a very basic guide to
       cd $env:WORKSPACE   # on Windows PowerShell
       cd %WORKSPACE%      # on Windows Command Prompt (cmd.exe)
   ```
-* Clone this repository on your workspace (you need to this only once):
+* Clone this repository on your workspace (you need to do this only once):
 
       git clone https://github.com/StoSUDANDO96/LabProj_2022_SudiamoTogether.git
   
