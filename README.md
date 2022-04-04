@@ -50,9 +50,10 @@ Since we are still learning how to work on Github, here is a very basic guide to
   
 * Check the status of the local branch against the remote repository:
 
+      git fetch
       git status
 
-  It will say if your local repository is up to date (nothing to be done), behind (you need to pull), ahead (you need to push) or even if you have pending changes that need to be committed.
+  It will say if your local repository is up to date (nothing to be done), behind (you need to pull), ahead (you need to push) or even if you have pending changes that need to be committed. `git fetch` is needed to retrieve data from remote.
 
 * Make sure your local repository is up to date before editing its content:
 
