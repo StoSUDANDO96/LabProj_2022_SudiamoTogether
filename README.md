@@ -80,3 +80,5 @@ Since we are still learning how to work on Github, here is a very basic guide to
   Note that you can commit many times before pushing, but it is advised to push as soon as possible in order to minimize chances of diverging branches. All your commits will be visible on remote only after you run `git push`. The first time you do this, Github will ask for your credentials.
 
 If anything goes wrong, Git will abort the command and propose suggestions to solve the problem (for example, running other commands). Check [Enrico Giampieri's slides](https://unibodifabiophysics.github.io/programmingCourseDIFA/Lesson_03_version_control.slides.html#/21) for other info.
+
+          I, a universe of atoms, an atom in the universe.
