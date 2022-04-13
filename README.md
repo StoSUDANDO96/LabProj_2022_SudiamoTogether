@@ -81,4 +81,4 @@ Since we are still learning how to work on Github, here is a very basic guide to
 
 If anything goes wrong, Git will abort the command and propose suggestions to solve the problem (for example, running other commands). Check [Enrico Giampieri's slides](https://unibodifabiophysics.github.io/programmingCourseDIFA/Lesson_03_version_control.slides.html#/21) for other info.
 
-          I, a universe of atoms, an atom in the universe.
+      I, a universe of atoms, an atom in the universe.
