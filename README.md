@@ -6,7 +6,7 @@ This very simple repository is a tester for lab activities in Software and Compu
 
 Wish you the very best, remember that in any case:
 
-     *Science is a cemetery of dead ideas, even though life may issue from them.* (M. De Unamuno) <3
+     Science is a cemetery of dead ideas, even though life may issue from them. (M. De Unamuno) <3
 
 ## How to collaborate
 
