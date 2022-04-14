@@ -15,30 +15,36 @@ Since we are still learning how to work on Github, here is a very basic guide to
 * Then, if you don't have Git installed:
   * Under Ubuntu, open a terminal and install Git with the following command:
     ```shell
-        sudo apt-get install git
+    sudo apt install git
     ```
   * If you are using Windows, open the PowerShell as administrator (right click + Run as administrator) and install [chocolatey](https://chocolatey.org/install) (follow their instructions). Then install Git with the following command:
     ```powershell
-        cinst git
+    cinst git
     ```
+  You can also install Git by downloading from https://git-scm.com/.
+* Set up Git by setting your name and email:
+
+      git config --global user.name "Name Surname"
+      git config --global user.email "name.surname@unibo.it"
+
 * Find a local directory on your computer where you can work. It can be a directory which contains your Master's degree projects, or you can create a new one.
 * Open a terminal and move into the directory you chose with:
   ```
-      cd /full/path/to/my/folder
+  cd /full/path/to/my/folder
   ```
   If you don't want to write the whole path each time, you can create an environment variable on Linux:
   ```shell
-      echo -e "\n export WORKSPACE=/full/path/to/my/folder \n" >> ~/.bashrc
+  echo -e "\n export WORKSPACE=/full/path/to/my/folder \n" >> ~/.bashrc
   ```
   On Windows you can run this:
   ```powershell
-      rundll32 sysdm.cpl,EditEnvironmentVariables
+  rundll32 sysdm.cpl,EditEnvironmentVariables
   ```
   and it will open a window where you can manage environment variables. Name one variable `WORKSPACE` and assign the path to your directory to it. Then, after opening the terminal again, you can change the current/working directory with:
   ```
-      cd $WORKSPACE       # on Linux
-      cd $env:WORKSPACE   # on Windows PowerShell
-      cd %WORKSPACE%      # on Windows Command Prompt (cmd.exe)
+  cd $WORKSPACE       # on Linux
+  cd $env:WORKSPACE   # on Windows PowerShell
+  cd %WORKSPACE%      # on Windows Command Prompt (cmd.exe)
   ```
 * Clone this repository on your workspace (you need to do this only once):
 
