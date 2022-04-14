@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Windows executables
+*.exe
+
+# Backup files
+*.bak
